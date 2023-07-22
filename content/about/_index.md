@@ -32,4 +32,4 @@ I'm seeking research experience, internships, or part-time employment in the abo
 
 This blog is built with [Hugo](https://gohugo.io/), a static site generator written in Go. Previous versions used [Jekyll](https://jekyllrb.com) and [Eleventy](https://11ty.dev). It is hosted for free on [Netlify](https://netlify.com). The source code is available [here](https://github.com/mnvpn/website), feel free to use or adapt as you see fit. Posts are written in the Markdown notes app [Bear](https://bear.app).
 
-A goal of this site is to be as fast, legible, and widely supported as possible. This means semantic HTML, no JavaScript, no web fonts, and minimal CSS. It also uses an [instant.page](https://instant.page) script to improve load-times. Thank you for visiting!
+A goal of this site is to be as fast, legible, and widely supported as possible. This means semantic HTML, no JavaScript, and minimal CSS. It also uses an [instant.page](https://instant.page) script to improve load-times. Thank you for visiting!
