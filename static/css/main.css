@@ -23,6 +23,11 @@ h2 {
     border-bottom: 1px solid #ddd;
 }
 
+code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9em;
+}
+
 a {
     color: #4d36b4;
     text-decoration: none;
