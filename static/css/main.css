@@ -2,9 +2,10 @@ body {
     max-width: 650px;
     margin: 40px auto;
     line-height: 1.6em;
-    font-family: Georgia, serif;
+    font-family: Sen, sans-serif;
+    font-size: 1.1em;
     color: #444;
-    background-color: #fdf6e3;
+    background-color: #eee;
     padding: 0 15px;
 }
 
@@ -23,7 +24,7 @@ h2 {
 }
 
 a {
-    color: #169;
+    color: #4d36b4;
     text-decoration: none;
 }
 
@@ -38,7 +39,7 @@ nav {
     text-align: center;
     margin-bottom: 20px;
     font-variant: small-caps;
-    font-weight: bold;
+    font-weight: 800;
     padding-bottom: 1.2em;
 }
 
