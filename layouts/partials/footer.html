@@ -1,0 +1,7 @@
+{{ if .Prev }}
+    <a href="{{ .Prev.Permalink }}">&larr; Previous Post</a>
+{{ end }}
+<a href="{{ .Site.BaseURL }}">Home</a>
+{{ if .Next }}
+    <a href="{{ .Next.Permalink }}">Next Post &rarr;</a>
+{{ end }}

@@ -1,0 +1,10 @@
+{{ define "content" }}
+<main>
+    <h1>{{ .Title }}</h1>
+    <p class="subtitle">{{ .PublishDate.Format "2 January 2006" }}</p>
+    <p>{{ .Content }}</p>
+</main>
+<footer>
+    {{ partial "footer.html" . }}
+</footer>
+{{ end }}

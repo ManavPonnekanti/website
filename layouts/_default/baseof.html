@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ .Title }}</title>
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+
+    <body>
+        <header>
+            {{ partial "header.html" . }}
+        </header>
+        {{ block "content" . }}{{ end }}
+        <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+    </body>
+</html>
