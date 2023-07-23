@@ -2,10 +2,10 @@ body {
     max-width: 650px;
     margin: 40px auto;
     line-height: 1.6em;
-    font-family: Sen, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.1em;
     color: #444;
-    background-color: #eee;
+    background-color: #fdf6e3;
     padding: 0 15px;
 }
 
@@ -24,12 +24,12 @@ h2 {
 }
 
 code {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Courier', monospace;
     font-size: 0.9em;
 }
 
 a {
-    color: #43b;
+    color: #1867b1;
     text-decoration: none;
 }
 
