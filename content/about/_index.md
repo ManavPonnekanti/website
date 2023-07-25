@@ -5,7 +5,7 @@ title: About
 
 ## Contact
 
-- Email: `fullname@gmail`
+- Email: `firstname@lastname.net`
 - Twitter: [`@mnvpn`](https://twitter.com/mnvpn)
 - GitHub: [`mnvpn`](https://github.com/mnvpn)
 - Telegram: [`@mponnekanti`](https://t.me/mponnekanti)
