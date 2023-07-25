@@ -6,4 +6,4 @@ I'm Manav, a second year medical student at University College London. I am inte
 
 I'm also exploring philosophy of science, particularly in the context of the mind-body problem and the nature of consciousness. In my free time, I like reading Golden Age science fiction, playing jazz piano, and tinkering with open source software.
 
-You can email me at manav[at]ponnekanti[dot]net, or find me on [Twitter](https://twitter.com/mnvpn) or [LinkedIn](https://linkedin.com/in/manavponnekanti).
+You can email me at manav@ponnekanti.net, or find me on [Twitter](https://twitter.com/mnvpn) or [LinkedIn](https://linkedin.com/in/manavponnekanti).

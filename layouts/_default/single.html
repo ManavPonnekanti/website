@@ -1,7 +1,6 @@
 {{ define "content" }}
 <main>
-    <h2>{{ .Title }}</h2>
-    <b>{{ .PublishDate.Format "2 January 2006" }}</b>
+    <p class="subtitle">{{ .PublishDate.Format "2 January 2006" }}</p>
     <p>{{ .Content }}</p>
 </main>
 <hr>

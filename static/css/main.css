@@ -2,22 +2,31 @@ body {
     max-width: 650px;
     margin: 15px auto;
     line-height: 1.5em;
-    font-size: 18px;
+    font-size: 1.1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, sans-serif;
     color: #444;
     background-color: #eee;
     padding: 0 15px;
 }
 
-h1,h2,h3 {
-    line-height: 1.2em;
+h1,h2,h3 {line-height: 1.2em}
+
+h1  {font-size: 1.5em}
+
+h2  {font-size: 1.3em}
+
+a {
+    color: #169;
+    text-decoration: none;
 }
 
-h1  {
-    font-size: 1.5em;
+a:hover {
+    text-decoration: underline;
 }
 
-h2 {
-    font-size: 2em;
+.subtitle {
+    color: #888;
+    margin-top: -0.8em;
 }
 
 footer {
@@ -26,9 +35,8 @@ footer {
     justify-content: space-between;
 }
 
-.table {
-    display: flex
-}
+
+.table {display: flex}
 
 .td {
     width: 7em;
