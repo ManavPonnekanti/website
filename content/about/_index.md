@@ -5,13 +5,12 @@ title: About
 
 ## Contact
 
-- Email: `[firstname]@[lastname].net`
+- Email: `fullname@gmail`
 - Twitter: [`@mnvpn`](https://twitter.com/mnvpn)
 - GitHub: [`mnvpn`](https://github.com/mnvpn)
 - Telegram: [`@mponnekanti`](https://t.me/mponnekanti)
 - [Linkedin](https://linkedin.com/in/manavponnekanti)
-
-You can download my PGP public key [here](/assets/publickey.asc) if you're into that.
+- 
 ## Projects
 
 Projects I have done, both current and ongoing:
