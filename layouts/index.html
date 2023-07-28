@@ -1,13 +1,24 @@
 {{ define "content" }}
 
-<main>
-    <h1>{{ .Title }}</h1>
-    <p>{{ .Content }}</p>
-    {{ range where .Site.RegularPages.ByPublishDate.Reverse "Type" "weblog" }}
+    {{ $pages := where .Site.RegularPages "Type" "blog" }}
+    {{ $sorted := $pages.ByDate.Reverse }}
+    {{ $recent := first 3 $sorted }}
+    {{ range $recent }}
+        <article>
+            <h2>{{ .Title }}</h2>
+            <div class="date">{{ .Date.Format "January 2, 2006" }}</div>
+            <p>{{ .Summary }}</p>
+            <p><a href="{{ .Permalink }}">Read More...</a></p>
+        </article>
+        <br>
+    {{ end }}
+
+    <!--<h2>Older Posts</h2>-->
+    {{ $older := after 3 $sorted }}
+    {{ range $older }}
     <div class="table">
         <div class="td">{{ .PublishDate.Format "2006/01/02" }}</div><a href="{{ .Permalink }}">{{ .Title }}</a>
     </div>
-    {{end}}
-</main>
+    {{ end }}
 
 {{ end }}

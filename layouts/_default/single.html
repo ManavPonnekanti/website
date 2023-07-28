@@ -1,10 +1,16 @@
 {{ define "content" }}
 <main>
     <h1>{{ .Title }}</h1>
-    <p class="subtitle">{{ .PublishDate.Format "2 January 2006" }}</p>
+    <p class="date">{{ .PublishDate.Format "2 January 2006" }}</p>
     <p>{{ .Content }}</p>
 </main>
 <footer>
-    {{ partial "footer.html" . }}
+    {{ if .Prev }}
+        <a href="{{ .Prev.Permalink }}">&larr; Previous Post</a>
+    {{ end }}
+    <a href="{{ .Site.BaseURL }}">Home</a>
+    {{ if .Next }}
+        <a href="{{ .Next.Permalink }}">Next Post &rarr;</a>
+    {{ end }}
 </footer>
 {{ end }}
