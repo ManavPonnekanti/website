@@ -39,6 +39,7 @@ footer {
 }
 
 .pagetitle span {
+    display: block;
     font-weight: 200;
 }
 
@@ -74,6 +75,10 @@ code {
     }
     .container {
         display: contents;
+    }
+
+    .pagetitle span {
+        display: inline;
     }
 
     .sidebar {
