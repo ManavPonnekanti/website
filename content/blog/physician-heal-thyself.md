@@ -1,6 +1,7 @@
 ---
 title:  "Physician, Heal Thyself"
 date: 2023-07-17
+draft: false
 ---
 *I was left with some reflections (and doubts) after the psychiatry lectures I received over my first year in medical school. I have been putting off writing them up, but in the interest of populating this blog with* something, *below lie some disorganised impressions on the topic. Take seriously at your own caution.*
 
