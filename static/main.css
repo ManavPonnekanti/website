@@ -8,7 +8,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 130px auto;
     grid-template-areas: "sidebar content";
 }
 
@@ -46,12 +46,17 @@ footer {
 .sidebar {
     grid-area: sidebar;
     text-align: right;
-    padding-right: 40px;
+    position: fixed;
 }
 
 .sidebar ul {
     list-style: none;
     padding: 0;
+}
+
+.content {
+    grid-area: content;
+    margin-left: 40px;
 }
 
 code {
@@ -100,6 +105,7 @@ code {
     }
 
     .sidebar {
+        position: relative;
         text-align: left;
         padding: 0;
     }
@@ -112,5 +118,9 @@ code {
     .sidebar li {
         float: left;
         padding-right: 10px;
+    }
+
+    .content {
+        margin-left: 0;
     }
 }
