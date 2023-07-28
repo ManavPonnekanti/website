@@ -9,9 +9,9 @@ I'm also exploring philosophy of science, particularly in the context of the min
 
 ## Contact
 
-- Email: `firstname@lastname.net`
-- Mastodon: <a rel="me" href="https://med-mastodon.com/@manav">`@manav@med-mastodon.com`</a>
-- GitHub: [`mnvpn`](https://github.com/mnvpn)
+- Email: manav@ponnekanti.net
+- <a rel="me" href="https://med-mastodon.com/@manav">Mastodon</a>
+- [GitHub](https://github.com/mnvpn)
 - [Linkedin](https://linkedin.com/in/manavponnekanti)
 
 ## Projects
