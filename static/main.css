@@ -81,12 +81,12 @@ code {
         padding: 0;
     }
 
-    ul {
+    .sidebar ul {
         display: inline-block;
         margin-top: -8px;
     }
-
-    li {
+    
+    .sidebar li {
         float: left;
         padding-right: 10px;
     }
